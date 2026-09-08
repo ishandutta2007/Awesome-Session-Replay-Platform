@@ -22,29 +22,20 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-- **[FullStory](https://www.fullstory.com/)**  
-  Enterprise digital experience platform offering high-fidelity session replay, autocapture, search, and powerful behavioral analytics.
-
-- **[LogRocket](https://logrocket.com/)**  
-  Session replay and frontend monitoring tool popular with engineering teams. Captures console logs, network requests, errors, and application state alongside video-like replays.
-
-- **[Hotjar](https://www.hotjar.com/)**  
-  Widely used behavior analytics platform combining session recordings, heatmaps, surveys, and feedback tools for UX and conversion teams.
-
-- **[Microsoft Clarity](https://clarity.microsoft.com/)**  
-  Free session replay and heatmap product from Microsoft with unlimited recordings, rage-click detection, and simple setup.
-
-- **[Mouseflow, Lucky Orange, Inspectlet, Smartlook](https://mouseflow.com/)**  
-  Mid-market session replay and heatmap platforms offering form analytics, funnels, and qualitative insights.
-
-- **[Glassbox, Quantum Metric, Contentsquare](https://www.glassbox.com/)**  
-  Enterprise digital experience analytics platforms with advanced session replay, journey analysis, and customer experience intelligence.
-
-- **[UXCam](https://uxcam.com/)**  
-  Mobile-focused session replay and analytics platform for iOS and Android apps.
-
-- **[Other experience platforms](https://www.fullstory.com/)**  
-  Additional tools that combine session replay with product analytics, error monitoring, or customer journey mapping.
+| Product | Description | Starting Pricing | Free Tier / Trial Limit |
+| :--- | :--- | :--- | :--- |
+| **[FullStory](https://www.fullstory.com/)** | Enterprise digital experience platform offering high-fidelity session replay, autocapture, search, and behavioral analytics. | $0/mo (Free plan) / Paid starts at ~$250/mo (~$10,000/yr) | Free plan includes 30,000 sessions/month (10 seats); 14-day free trial (up to 5,000 sessions) |
+| **[LogRocket](https://logrocket.com/)** | Session replay and frontend monitoring tool capturing console logs, network requests, errors, and state alongside replays. | Starts at $69/mo (billed annually) / $99/mo | Free plan includes 1,000 sessions/month (3 seats); 14-day free trial for paid plans |
+| **[Hotjar](https://www.hotjar.com/)** | Behavior analytics platform combining session recordings, heatmaps, surveys, and feedback tools. | Starts at $39/mo (Growth plan) | Free plan includes up to 200,000 monthly sessions; 15-day free trial |
+| **[Microsoft Clarity](https://clarity.microsoft.com/)** | Free session replay and heatmap product with rage-click detection and simple setup. | $0/mo (100% free) | Unlimited sessions and recordings (30-day data retention) |
+| **[Mouseflow](https://mouseflow.com/)** | Session replay and heatmap platform offering form analytics, funnels, and qualitative user insights. | Starts at $25/mo (Essential plan) | Free plan includes 500 sessions/month (1 website); 14-day free trial |
+| **[Lucky Orange](https://www.luckyorange.com/)** | Conversion optimization tool featuring session recordings, heatmaps, dynamic funnels, and live chat. | Starts at $19/mo (Build plan) | Free plan includes 100 sessions/month; 7-day free trial |
+| **[Inspectlet](https://www.inspectlet.com/)** | User testing and session recording platform with eye-tracking heatmaps and A/B testing support. | Starts at $39/mo (Micro plan) | Free plan includes 2,500 recorded sessions/month (up to 3 websites) |
+| **[Smartlook](https://www.smartlook.com/)** | Qual-quant analytics tool providing session recording, automatic event tracking, and funnel analysis. | Starts at $55/mo (Pro plan) | Free plan includes 3,000 sessions/month; 30-day free trial |
+| **[Glassbox](https://www.glassbox.com/)** | Enterprise digital experience analytics platform with session replay, journey analysis, and CX intelligence. | Paid contracts start at ~$833/mo (~$10,000/yr) | 14-day free trial / Demo POC available upon request |
+| **[Quantum Metric](https://www.quantummetric.com/)** | Real-time digital experience platform focusing on session replay, customer journey analytics, and business impact. | Paid contracts start at ~$2,083/mo (~$25,000/yr) | Guided demo & proof-of-concept (POC) trial upon request |
+| **[Contentsquare](https://contentsquare.com/)** | Digital experience analytics platform providing session replay, customer journey mapping, and merchandising analysis. | Starts at $39/mo (Growth plan) | Free plan includes 200,000 monthly sessions (10,000 replays); 15-day free trial |
+| **[UXCam](https://uxcam.com/)** | Mobile-focused session replay and analytics platform for iOS and Android native apps. | Starts at $99/mo (Starter plan) | Free plan includes 3,000 sessions/month; 14-day free trial (up to 100,000 sessions) |
 
 ## Open-Source GitHub Projects
 
