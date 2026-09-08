@@ -1,96 +1,101 @@
-# Awesome-Session-Replay-Platform
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Session Replay Platforms Banner" width="100%" />
+</p>
 
-## Top Session Replay Platform Ecosystem
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Session-Replay-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Session-Replay-Platform?style=flat-square&color=gold" alt="Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Session-Replay-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Session-Replay-Platform?style=flat-square&color=blue" alt="Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Session-Replay-Platform/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on Session Recording, User Behavior Replay, Heatmaps, Frontend Debugging & Digital Experience Analytics*  
-**Last updated: September 2026**
+# 🎥 Awesome Session Replay Platform & Digital Experience Ecosystem 🚀
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Session Replay**. These tools capture and replay user interactions on websites and applications so teams can understand behavior, debug issues, improve UX, and optimize conversion funnels.
-
-**Examples** include FullStory, LogRocket, Hotjar, Microsoft Clarity, Mouseflow, Lucky Orange, Inspectlet, Smartlook, OpenReplay, Glassbox, UXCam, Quantum Metric, and Contentsquare (the category leaders).
-
-**Open-source emphasis**: Session replay has excellent open-source options. **OpenReplay** is the leading self-hosted dedicated platform. **rrweb** is the foundational MIT-licensed recording/replay library used by many products. **PostHog** also provides robust open-source session replay alongside product analytics. This section is heavily expanded with every major active project.
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-## Table of Contents
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## SaaS/Hosted Platforms
-
-| Product | Description | Starting Pricing | Free Tier / Trial Limit |
-| :--- | :--- | :--- | :--- |
-| **[FullStory](https://www.fullstory.com/)** | Enterprise digital experience platform offering high-fidelity session replay, autocapture, search, and behavioral analytics. | $0/mo (Free plan) / Paid starts at ~$250/mo (~$10,000/yr) | Free plan includes 30,000 sessions/month (10 seats); 14-day free trial (up to 5,000 sessions) |
-| **[LogRocket](https://logrocket.com/)** | Session replay and frontend monitoring tool capturing console logs, network requests, errors, and state alongside replays. | Starts at $69/mo (billed annually) / $99/mo | Free plan includes 1,000 sessions/month (3 seats); 14-day free trial for paid plans |
-| **[Hotjar](https://www.hotjar.com/)** | Behavior analytics platform combining session recordings, heatmaps, surveys, and feedback tools. | Starts at $39/mo (Growth plan) | Free plan includes up to 200,000 monthly sessions; 15-day free trial |
-| **[Microsoft Clarity](https://clarity.microsoft.com/)** | Free session replay and heatmap product with rage-click detection and simple setup. | $0/mo (100% free) | Unlimited sessions and recordings (30-day data retention) |
-| **[Mouseflow](https://mouseflow.com/)** | Session replay and heatmap platform offering form analytics, funnels, and qualitative user insights. | Starts at $25/mo (Essential plan) | Free plan includes 500 sessions/month (1 website); 14-day free trial |
-| **[Lucky Orange](https://www.luckyorange.com/)** | Conversion optimization tool featuring session recordings, heatmaps, dynamic funnels, and live chat. | Starts at $19/mo (Build plan) | Free plan includes 100 sessions/month; 7-day free trial |
-| **[Inspectlet](https://www.inspectlet.com/)** | User testing and session recording platform with eye-tracking heatmaps and A/B testing support. | Starts at $39/mo (Micro plan) | Free plan includes 2,500 recorded sessions/month (up to 3 websites) |
-| **[Smartlook](https://www.smartlook.com/)** | Qual-quant analytics tool providing session recording, automatic event tracking, and funnel analysis. | Starts at $55/mo (Pro plan) | Free plan includes 3,000 sessions/month; 30-day free trial |
-| **[Glassbox](https://www.glassbox.com/)** | Enterprise digital experience analytics platform with session replay, journey analysis, and CX intelligence. | Paid contracts start at ~$833/mo (~$10,000/yr) | 14-day free trial / Demo POC available upon request |
-| **[Quantum Metric](https://www.quantummetric.com/)** | Real-time digital experience platform focusing on session replay, customer journey analytics, and business impact. | Paid contracts start at ~$2,083/mo (~$25,000/yr) | Guided demo & proof-of-concept (POC) trial upon request |
-| **[Contentsquare](https://contentsquare.com/)** | Digital experience analytics platform providing session replay, customer journey mapping, and merchandising analysis. | Starts at $39/mo (Growth plan) | Free plan includes 200,000 monthly sessions (10,000 replays); 15-day free trial |
-| **[UXCam](https://uxcam.com/)** | Mobile-focused session replay and analytics platform for iOS and Android native apps. | Starts at $99/mo (Starter plan) | Free plan includes 3,000 sessions/month; 14-day free trial (up to 100,000 sessions) |
-
-## Open-Source GitHub Projects
-
-- **[OpenReplay](https://github.com/openreplay/openreplay)**  
-  Leading open-source session replay and product analytics platform you can self-host. Captures user interactions, network activity, console logs, errors, performance metrics, and supports co-browsing. Designed for privacy, security, and full data control.
-
-- **[rrweb](https://github.com/rrweb-io/rrweb)**  
-  Foundational MIT-licensed library for recording and replaying web sessions. Provides snapshot, mutation recording, and high-fidelity playback. Used as the capture engine by many commercial and open-source products.
-
-- **[PostHog](https://github.com/PostHog/posthog)**  
-  Open-source product analytics platform that includes powerful session replay, heatmaps, funnels, feature flags, and more. Fully self-hostable with strong privacy controls.
-
-- **[Highlight](https://github.com/highlight/highlight)**  
-  Open-source session replay and error monitoring platform that combines replays with stack traces and debugging context.
-
-- **[rrHog and rrweb-based analytics](https://github.com/rrHog/rrHog)**  
-  Open-source self-hosted web analytics and session replay stacks built on rrweb, often paired with modern storage and UI layers (e.g., ClickHouse).
-
-- **[Sentry Session Replay](https://github.com/getsentry/sentry)**  
-  Error monitoring platform that includes open-source session replay capabilities tightly integrated with issue tracking and performance data.
-
-- **[Other rrweb ecosystem tools](https://github.com/search?q=rrweb+session+replay)**  
-  Community players, storage engines, and wrappers that extend rrweb for custom recording, playback, or analytics use cases.
-
-### Additional Strong Open-Source Options
-
-- **Capture & player libraries**: Tools built on or compatible with rrweb for embedding replay inside products or support tools.
-- **Privacy & masking utilities**: Open-source components for sanitizing PII, blocking sensitive fields, and complying with data-protection requirements.
-- **Analytics companions**: Open-source product analytics or heatmap projects that complement pure session replay.
-- **Frontend debugging stacks**: Combinations of replay + console/network capture for developer workflows.
-- **Self-hosted observability**: Broader stacks that incorporate session data alongside logs and traces.
-- Research and experimental recorders for specialized environments (mobile web, canvas, etc.).
-
-**Frameworks for building custom systems**:  
-For a complete self-hosted session replay product, start with **OpenReplay**.  
-For maximum flexibility or embedding replay into your own product, use the **rrweb** library and build (or adopt) ingest, storage, and player layers.  
-**PostHog** is ideal when you want session replay tightly integrated with product analytics and feature flags in one open-source platform.  
-Commercial tools (FullStory, LogRocket, Hotjar, Clarity, Glassbox, etc.) remain popular for polished UX, advanced search, enterprise compliance, and managed infrastructure. Many teams successfully run open-source replay for privacy-sensitive or cost-sensitive workloads while using commercial tools for specific advanced needs.
-
-## How to Contribute
-
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Session replay tools capture detailed user interactions and can include sensitive data. Proper consent, masking, data-retention policies, and compliance with privacy regulations (GDPR, CCPA, etc.) are essential.
-- Self-hosted open-source solutions give full data control but require secure deployment, storage management, and ongoing maintenance.
+**Curated List of SaaS Products & Open-Source GitHub Projects for Session Recording, User Behavior Replay, Heatmaps, Frontend Debugging & Digital Experience Analytics (DXA)**  
+*Last updated: September 2026*
 
 ---
 
-**Made for product managers, UX researchers, frontend engineers, and digital experience teams.**  
-Let's advance transparent, privacy-respecting, and developer-friendly session replay through strong open-source tools.
+## 📌 Table of Contents
+- [🔍 Overview & SEO Keywords](#-overview--seo-keywords)
+- [🏢 SaaS / Hosted Platforms](#-saas--hosted-platforms)
+- [⚡ Open-Source GitHub Projects](#-open-source-github-projects)
+- [📈 Star History](#-star-history)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚖️ Disclaimer](#-disclaimer)
+
+---
+
+## 🔍 Overview & SEO Keywords
+
+This repository tracks notable **SaaS platforms** and **open-source projects** for **Session Replay**, **User Behavior Analytics**, and **Digital Experience Intelligence (DXI)**. These tools capture and replay user interactions on websites and mobile applications so engineering, product, and UX teams can understand real user behavior, reproduce elusive frontend bugs, analyze conversion funnels, and optimize UX journeys.
+
+**Key SEO Keywords & Topics:** `Session Replay`, `User Session Recording`, `Heatmaps`, `Digital Experience Analytics (DXA)`, `Frontend Debugging`, `Rage Click Detection`, `Customer Journey Analytics`, `Product Analytics`, `rrweb`, `Self-Hosted Session Recording`, `GDPR Compliant UX Tools`.
+
+---
+
+## 🏢 SaaS / Hosted Platforms
+
+📊 **Market Insights**: The global Session Replay & Digital Experience Analytics (DXA) market size is estimated at **~$3.2 Billion USD**, projected to reach **$6.5+ Billion USD by 2030** (CAGR ~16.5%). The sector is **moderately fragmented**, led by a few major enterprise category leaders (Contentsquare, FullStory, Quantum Metric) while remaining highly competitive alongside specialized mid-market platforms and rapidly growing open-source alternatives.
+
+*Note: The table below is sorted in **descending order by Company Size / Valuation / Revenue**.*
+
+| Product 🌐 | Description 📝 | Company Size / Valuation / Revenue 💰 | Starting Pricing 💵 | Free Tier / Trial Limit 🎁 |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft Clarity](https://clarity.microsoft.com/)** | Free session replay and heatmap product from Microsoft with unlimited recordings, rage-click detection, and simple setup. | Parent: Microsoft ($3.1 Trillion Valuation / $245B+ Revenue) | $0/mo (100% free) | Unlimited sessions & recordings (30-day data retention) |
+| **[Smartlook](https://www.smartlook.com/)** | Qual-quant analytics tool providing session recording, automatic event tracking, and funnel analysis. | Parent: Cisco Systems ($200B+ Valuation / Acquired 2023) | Starts at $55/mo (Pro plan) | Free plan includes 3,000 sessions/month; 30-day free trial |
+| **[Contentsquare](https://contentsquare.com/)** | Digital experience analytics platform providing session replay, customer journey mapping, and merchandising analysis. | $5.6 Billion Valuation (~$350M ARR) | Starts at $39/mo (Growth plan) | Free plan includes 200,000 monthly sessions (10,000 replays); 15-day free trial |
+| **[FullStory](https://www.fullstory.com/)** | Enterprise digital experience platform offering high-fidelity session replay, autocapture, search, and behavioral analytics. | $1.8 Billion Valuation (~$100M ARR) | $0/mo (Free plan) / Paid starts at ~$250/mo (~$10,000/yr) | Free plan includes 30,000 sessions/month (10 seats); 14-day free trial (up to 5,000 sessions) |
+| **[Quantum Metric](https://www.quantummetric.com/)** | Real-time digital experience platform focusing on session replay, customer journey analytics, and business impact. | $1.0 Billion Valuation (~$50M ARR) | Paid contracts start at ~$2,083/mo (~$25,000/yr) | Guided demo & proof-of-concept (POC) trial upon request |
+| **[Hotjar](https://www.hotjar.com/)** | Behavior analytics platform combining session recordings, heatmaps, surveys, and feedback tools. | Acquired for ~$500M+ (Subsidiary of Contentsquare) | Starts at $39/mo (Growth plan) | Free plan includes up to 200,000 monthly sessions; 15-day free trial |
+| **[LogRocket](https://logrocket.com/)** | Session replay and frontend monitoring tool capturing console logs, network requests, errors, and state alongside replays. | ~$200 Million Valuation (~$30M ARR) | Starts at $69/mo (billed annually) / $99/mo | Free plan includes 1,000 sessions/month (3 seats); 14-day free trial |
+| **[Glassbox](https://www.glassbox.com/)** | Enterprise digital experience analytics platform with session replay, journey analysis, and CX intelligence. | ~$150 Million Acquisition Valuation (~$57.3M ARR) | Paid contracts start at ~$833/mo (~$10,000/yr) | 14-day free trial / Demo POC available upon request |
+| **[UXCam](https://uxcam.com/)** | Mobile-focused session replay and analytics platform for iOS and Android native apps. | ~$50M - $100M Valuation (~$15M ARR) | Starts at $99/mo (Starter plan) | Free plan includes 3,000 sessions/month; 14-day free trial (up to 100,000 sessions) |
+| **[Mouseflow](https://mouseflow.com/)** | Session replay and heatmap platform offering form analytics, funnels, and qualitative user insights. | ~$50 Million Valuation (~$15M ARR) | Starts at $25/mo (Essential plan) | Free plan includes 500 sessions/month (1 website); 14-day free trial |
+| **[Lucky Orange](https://www.luckyorange.com/)** | Conversion optimization tool featuring session recordings, heatmaps, dynamic funnels, and live chat. | ~$30M - $50M Valuation (~$10M ARR) | Starts at $19/mo (Build plan) | Free plan includes 100 sessions/month; 7-day free trial |
+| **[Inspectlet](https://www.inspectlet.com/)** | User testing and session recording platform with eye-tracking heatmaps and A/B testing support. | ~$20 Million Valuation (~$5M ARR) | Starts at $39/mo (Micro plan) | Free plan includes 2,500 recorded sessions/month (up to 3 websites) |
+
+---
+
+## ⚡ Open-Source GitHub Projects
+
+Session replay has vibrant open-source alternatives giving teams full data privacy, compliance, and self-hosting flexibility.
+
+*Note: The table below is sorted in **descending order by GitHub Star Count**.*
+
+| Repository 🐙 | GitHub Stars ⭐ | Description 📝 | Replay Engine / Tech Stack ⚡ |
+| :--- | :--- | :--- | :--- |
+| 🛠️ **[Sentry](https://github.com/getsentry/sentry)** | [![GitHub stars](https://img.shields.io/github/stars/getsentry/sentry?style=social&color=white)](https://github.com/getsentry/sentry/stargazers) | Application monitoring & error tracking platform with built-in open-source session replay tightly linked to stack traces. | Custom / rrweb-based |
+| 🦔 **[PostHog](https://github.com/PostHog/posthog)** | [![GitHub stars](https://img.shields.io/github/stars/PostHog/posthog?style=social&color=white)](https://github.com/PostHog/posthog/stargazers) | All-in-one open-source product analytics platform featuring session replay, heatmaps, funnels, and feature flags. | rrweb engine |
+| 📊 **[Umami](https://github.com/umami-software/umami)** | [![GitHub stars](https://img.shields.io/github/stars/umami-software/umami?style=social&color=white)](https://github.com/umami-software/umami/stargazers) | Fast, privacy-focused open-source web analytics solution with telemetry and user session tracking. | Custom JS capture |
+| 📈 **[Plausible Analytics](https://github.com/plausible/analytics)** | [![GitHub stars](https://img.shields.io/github/stars/plausible/analytics?style=social&color=white)](https://github.com/plausible/analytics/stargazers) | Lightweight and open-source web analytics platform with privacy-first user journey tracking. | Lightweight telemetry |
+| 🌐 **[Matomo](https://github.com/matomo-org/matomo)** | [![GitHub stars](https://img.shields.io/github/stars/matomo-org/matomo?style=social&color=white)](https://github.com/matomo-org/matomo/stargazers) | Leading ethical open-source web analytics suite with Heatmaps, Session Recording plugin, and full data ownership. | Matomo Replay plugin |
+| 🎬 **[rrweb](https://github.com/rrweb-io/rrweb)** | [![GitHub stars](https://img.shields.io/github/stars/rrweb-io/rrweb?style=social&color=white)](https://github.com/rrweb-io/rrweb/stargazers) | Foundational MIT-licensed web session recorder and player library powering most commercial and open-source replay tools. | DOM Mutation Observer |
+| 🔄 **[OpenReplay](https://github.com/openreplay/openreplay)** | [![GitHub stars](https://img.shields.io/github/stars/openreplay/openreplay?style=social&color=white)](https://github.com/openreplay/openreplay/stargazers) | Top dedicated self-hosted session replay & product analytics suite for debugging web apps with full data privacy. | Native OpenReplay engine |
+| 🔍 **[HyperDX](https://github.com/hyperdxio/hyperdx)** | [![GitHub stars](https://img.shields.io/github/stars/hyperdxio/hyperdx?style=social&color=white)](https://github.com/hyperdxio/hyperdx/stargazers) | Open-source developer observability platform unifying session replay, log management, and trace correlation. | OpenTelemetry + rrweb |
+| 💡 **[Highlight](https://github.com/highlight/highlight)** | [![GitHub stars](https://img.shields.io/github/stars/highlight/highlight?style=social&color=white)](https://github.com/highlight/highlight/stargazers) | Open-source full-stack observability platform combining session replay with front-end error tracking and performance. | rrweb + ClickHouse |
+| 🚀 **[Openpanel](https://github.com/openpanel-dev/openpanel)** | [![GitHub stars](https://img.shields.io/github/stars/openpanel-dev/openpanel?style=social&color=white)](https://github.com/openpanel-dev/openpanel/stargazers) | Modern open-source product analytics and session recording platform designed for web and mobile apps. | Custom event engine |
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Session-Replay-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Session-Replay-Platform&type=date&legend=top-left)
+
+---
+
+## 🤝 How to Contribute
+
+1. Fork this repository 🍴
+2. Add or update entries in `README.md` following the tabular format.
+3. Submit a Pull Request (PR) with factual descriptions and links to official sites.
+4. Check out [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) for more curated lists! ⭐
+
+---
+
+## ⚖️ Disclaimer
+
+- This list is **community-curated** for educational and research purposes.
+- Session replay software collects sensitive user interaction data. Ensure proper consent, mask PII, and maintain strict compliance with GDPR, CCPA, and data privacy laws.
